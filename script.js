@@ -1,47 +1,3 @@
-// var obj = {
-//     name:'ahmed',
-//     age:'23',
-//     stats:'single',
-//     address:'alex'
-// }
-
-// var obj2 = new Object();
-// obj2.name="ahmed";
-// obj2.age="27";
-// obj2.stats="single";
-// obj2.address="Alex";
-
-// console.log(obj2.name);
-// console.log(obj2['age']);
-// console.log(Object.values(obj2));
-// console.log(Object.keys(obj2));
-// console.log();
-
-// var y = Object.entries(obj2);
-// y.forEach(function(val,ind){
-//     console.log(ind + " - " + val[0] + " : " + val[1])
-// })
-
-
-// var first = document.getElementById("input1");
-// var second = document.getElementById("input2");
-
-// function printname(){
-    
-//     var fullName = first.value + " " + second.value;
-//     alert(fullName)
-// }
-
-// var button = document.getElementById("btn");
-// button.addEventListener('click',printname())
-
-// var product = [100, 89, 321, 341, 743, 6754, 52, 36];
-// for(var i =1 ; i <(product.length+1) ;i++ ){
-//     console.log( i + " - " +    (product[i-1] - (product[i-1] * (i / 10))))
-// };
-
-
-//---------------------------- Task-6 ---------------------//
 
 let stWork  = document.querySelector('#stWork');
 let stBreak = document.querySelector('#stBreak');
@@ -146,10 +102,3 @@ endWork.addEventListener('click' , endTimer);
 
 
     
-//     function Calculator(num1,num2) {
-
-//         this.numberone = num1;
-//         this.numbertwo = num2;
-//     }
-//     timesMethod 
-// }
